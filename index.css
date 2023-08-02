@@ -1,0 +1,94 @@
+:root {
+  --bg-c-body: #ffffff;
+  --bg-c-footer: #285bad;
+  --bg-c-nav: #0b3170;
+  --f-c-footer: white;
+  --f-c-navbar: white;
+  --max-width: 1140px;
+  font-size: 16px;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+body {
+  background-color: var(--bg-c-body);
+}
+
+nav {
+  background-color: var(--bg-c-nav);
+  padding: 20px;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .imageContainer {
+  width: 50px;
+}
+nav .imageContainer a img {
+  width: 100%;
+}
+
+.navbarText {
+  color: var(--f-c-navbar);
+}
+
+.hero-home {
+  display: flex;
+}
+
+.flex-hero-home {
+  display: flex;
+  flex: 1 1 0px;
+  justify-content: space-around;
+}
+
+.box1-hero-home {
+  display: flex;
+  padding-left: 5%;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+}
+
+.image-hero-home {
+  display: flex;
+  align-content: center;
+  padding-right: 5%;
+  width: 80%;
+}
+
+footer {
+  background-color: var(--bg-c-footer);
+  padding-top: 20px;
+  padding-bottom: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.footerContainer {
+  width: var(--max-width);
+}
+
+.containerLogo {
+  margin-bottom: 10px;
+}
+
+.footercontent {
+  color: var(--f-c-footer);
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerStrong {
+  font-weight: normal;
+}
+
+.footerHeader {
+  font-weight: 600;
+}
+
+.footerOptions li {
+  padding: 5px;
+}
