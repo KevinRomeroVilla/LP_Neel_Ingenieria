@@ -1,7 +1,7 @@
 :root {
   --bg-c-body: #ffffff;
   --bg-c-footer: #285bad;
-  --bg-c-nav: #0b3170;
+  --bg-c-nav: #ffffff;
   --f-c-footer: white;
   --f-c-navbar: white;
   --max-width: 1140px;
@@ -15,9 +15,9 @@ body {
 
 nav {
   background-color: var(--bg-c-nav);
-  padding: 20px;
   position: sticky;
   top: 0;
+  padding: 5px 5px 0px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -30,8 +30,29 @@ nav .imageContainer a img {
   width: 100%;
 }
 
-.navbarText {
-  color: var(--f-c-navbar);
+.navbar_button {
+  box-shadow: inset 0px 1px 0px 0px #97c4fe;
+  background: linear-gradient(to bottom, #387ec9 5%, #1e62d0 100%);
+  background-color: #387ec9;
+  border-radius: 6px;
+  border: 1px solid #337fed;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 10px 24px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #1570cd;
+}
+.navbar_button:hover {
+  background: linear-gradient(to bottom, #1e62d0 5%, #387ec9 100%);
+  background-color: #1e62d0;
+}
+.navbar_button:active {
+  position: relative;
+  top: 1px;
 }
 
 .hero-home {
