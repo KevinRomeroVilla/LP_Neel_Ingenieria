@@ -17,17 +17,28 @@ nav {
   background-color: var(--bg-c-nav);
   position: sticky;
   top: 0;
-  padding: 5px 5px 0px;
+  padding: 5px 5px 5px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
-nav .imageContainer {
-  width: 50px;
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+  font-family: verdana;
+  text-align: center;
+  font-size: 16px;
+  color: rgb(0, 119, 255);
+  text-shadow: rgb(0, 0, 0) 1px 1px 2px;
 }
+
 nav .imageContainer a img {
   width: 100%;
+}
+
+.Logo_img {
+  display: none;
 }
 
 .navbar_button {
@@ -57,27 +68,30 @@ nav .imageContainer a img {
 
 .hero-home {
   display: flex;
+  height: 315px;
 }
 
 .flex-hero-home {
   display: flex;
   flex: 1 1 0px;
   justify-content: space-around;
+  background-image: url('../Images/Back_ground_img.webp');
+  background-size: 100% 100%;
 }
 
 .box1-hero-home {
   display: flex;
-  padding-left: 5%;
   flex-direction: column;
   justify-content: center;
-  width: 80%;
+  width: 95%;
 }
 
 .image-hero-home {
-  display: flex;
-  align-content: center;
-  padding-right: 5%;
-  width: 80%;
+  display: none;
+}
+
+.h2-hero-home {
+  font-size: 1.1em;
 }
 
 footer {
