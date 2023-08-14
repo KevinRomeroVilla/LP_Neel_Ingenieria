@@ -104,6 +104,41 @@ nav .imageContainer a img {
   justify-content: center;
   padding-bottom: 20px;
 }
+
+.content h2 {
+  padding-bottom: 5px;
+}
+
+.image-content {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.box-content-1 {
+  background-color: #eceef1;
+}
+
+.box-content-2 {
+  background-color: #ffffff;
+}
+
+.box-content-3 {
+  background-color: #eceef1;
+}
+
+.box-content-4 {
+  background-color: #ffffff;
+}
+
+.box-content-5 {
+  background-color: #eceef1;
+}
+
+.box-content-6 {
+  background-color: #ffffff;
+}
+
 footer {
   background-color: var(--bg-c-footer);
   padding-top: 20px;
