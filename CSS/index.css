@@ -68,15 +68,16 @@ nav .imageContainer a img {
 
 .hero-home {
   display: flex;
-  height: 315px;
+  height: 700px;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #eceef1;
 }
 
 .flex-hero-home {
   display: flex;
   flex: 1 1 0px;
   justify-content: space-around;
-  background-image: url('../Images/Back_ground_img.webp');
-  background-size: 100% 100%;
 }
 
 .box1-hero-home {
@@ -86,14 +87,23 @@ nav .imageContainer a img {
   width: 95%;
 }
 
-.image-hero-home {
-  display: none;
+.h1-hero-home {
+  margin: 0;
 }
 
 .h2-hero-home {
-  font-size: 1.1em;
+  padding-top: 5px;
 }
 
+.hero_button {
+  padding-top: 5px;
+}
+
+.image-hero-home {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
 footer {
   background-color: var(--bg-c-footer);
   padding-top: 20px;
